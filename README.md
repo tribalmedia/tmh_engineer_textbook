@@ -10,19 +10,302 @@ Tribal Media House におけるビギナーエンジニア，特にWeb開発の�
 
 ## 目次
 
-1. トライバルメディアハウスについて
-2. トライバルメディアハウスにおけるソリューション開発部とエンジニアについて
-3. ソフトウェアエンジニアについて
-4. Operation System
-5. Container
-6. Web Server
-7. Database System
-8. HTML
-9. Git
-10. PHP
-11. JavaScript
-12. Swift
-13. Android
-14. UI
-15. Hardware
-16. Network
+1. [About TMH](About TMH)
+2. [About Solution Development Department](About Solution Development Department)
+3. [About Software Engineer](About Software Engineer)
+4. [Operation System](Operation System)
+5. [Container](Container)
+6. [Web Server](Web Server)
+7. [Database System](Database System)
+8. [HTML](HTML)
+9. [Git](Git)
+10. [PHP](PHP)
+11. [JavaScript](JavaScript)
+12. [Swift](Swift)
+13. [Android](Android)
+14. [UI](UI)
+15. [Hardware](Hardware)
+16. [Network](Network)
+
+## About TMH
+
+トライバルメディアハウスは顧客を熱狂させる全くあたらしいマーケティングを創造するマーケティングデザインカンパニーです。   
+従来の手法にとらわれないストラテジーと斬新なアイデア、それを実現するためのテクノロジーで、企業のマーケティングとユーザー体験に変革をもたらします。
+
+## About Solution Development Department
+
+Tribal Media Houseにおけるソリューション開発部門は、Web技術を用いてマーケティングツールを開発しています。
+
+開発にはいくつかのチームと役割がありますが、ソリューション開発部のすべてのメンバーは「エンジニア」であると定義されています。
+
+そんな「エンジニア」の使命は、「エンジニア」であることに誇りと自信と情熱を持って、世界をより良くしていくことです。
+
+## About Software Engineer
+
+トライバルメディアハウスの開発部において”ソフトウェアエンジニア”に求められる領域を以下の通り定義します。
+
+1. Operation System
+1. Container
+1. Web Server
+1. Database System
+1. HTML
+1. Git
+1. PHP
+1. JavaScript
+1. Swift
+1. Android
+1. UI
+
+これらの領域の中から、特に得意とする領域の特性によって以下の通り分類を行います。
+
+1. System Engineer
+1. Application Engineer
+
+更に専門的な領域を得意とするエンジニアの場合、詳細に分類を行います。
+
+1. Middleware Engineer
+1. Web Application Engineer
+1. Mobile Application Engineer
+
+また、以下の領域はトライバルメディアハウスにおいても関与する領域ではありますが、Software Engineerの領域外であると定義します。
+
+1. Hardware
+1. Network
+
+## Operation System
+
+Operation Systemにおいて、特に大切な項目を以下にピックアップします。
+
+必要に応じて、UNIX,Linuxについての知識も必要となる為、Oparation Systemについては広域な知識が必要とされます。
+
+### Topics
+
+- File System
+- Security System
+- Device Driver
+- Memory Access
+- Interrupt
+- Job Scheduler
+- Process Model
+
+### Reference
+
+詳解 Linuxカーネル 第3版
+ISBN978-4-87311-313-5
+https://www.oreilly.co.jp/books/9784873113135/
+
+## Container
+
+ContainerにおいてはDockerを中心にコンテナ技術について必要になります。
+合わせて、仮想化技術などについても必要に応じて学習して下さい。
+
+### Topics
+- Docker
+
+### Reference
+https://docs.docker.com/engine/docker-overview/
+
+## Web Server
+
+Web Serverについて項目を整理した場合、UNIX・Process・Network APIとの関係性が深くなります。
+
+リクエスト処理においては複数のモデルが存在する為、なぜそのモデルが必要とされるのかを抑える必要があります。
+
+### Topics
+- UNIX Process Model
+- UNIX Network API
+	- Socket Model
+		- Listen
+		- Accept
+		- TCP echo Server
+		- Port
+- Parent / Child Process
+- Program execution
+- ps command
+- Request Proccessing
+	- RPC / gRPC
+	- Serial Model
+	- Multi Process Model
+	- Multi Thread Model
+	- Event Driven Model
+	- Hybrid Model
+
+## Database System
+
+Database Systemについて、特にRDBMSはしっかりと習得しておく必要があります。
+データモデリングなども要素もありますが、まずはRDBMSを網羅的に学習をして下さい。
+
+### Topics
+- RDBMS
+	- MySQL
+	- PostgreSQL
+	- SQL
+	- MetaData
+	- Integrity Rules
+	- Result Sets and Cursors
+	- Transactions
+	- Stored Procedures
+- NoSQL
+	- Schema Less
+	- Distributing Models
+	- CAP theorem
+	- Aggregate Data Models
+	- Document
+		- MongoDB
+	- Key Value
+		- MemcacheDB
+		- Redis
+	- Column Family Stores
+	- Graph Database
+- Time Stamped Database
+	- double-delta-encoding
+	- XOR encoding
+	- InfluxDB
+
+### Reference
+
+**WEB**
+
+https://docs.oracle.com/javase/tutorial/jdbc/overview/database.html
+https://www.thoughtworks.com/insights/blog/nosql-databases-overview
+
+**BOOKS**
+
+データベース技術[実践]入門
+
+## HTML
+
+HTMLについては奥が深い領域です。
+
+単純にマークアップ言語の羅列を行うだけではなく、さまざまな周辺プロトコルや周辺技術もしっかりと学習する必要があります。
+
+### Topics
+- Mark Up Language
+- Tag
+
+### Reference
+**WEB**
+
+ドットインストール
+
+## Git
+
+バージョンコントロールについては、Gitを用います。
+延長線上にGitHubも存在していると考えている為、とても重要な項目であると考えます。
+
+### Topics
+- Version Control
+
+### Reference
+**BOOKS**
+
+Gitアリスとボブ
+
+## PHP
+
+サーバサイド言語として、PHPをメイン言語として採用しています。
+
+比較的敷居が低く、初学者であってもいきなり挫折する事が少ない言語であると認識しています。
+しかし、習得の為には他の言語と同様に簡単ではない為、大切なポイントをまずは学習して下さい。
+
+### Topics
+- CGI
+- PHP-FPM
+- PDO
+- CakePHP
+
+### Reference
+**BOOKS**
+
+パーフェクトPHP
+
+**MEMOS**
+
+CGI
+PHP-FPM
+
+## JavaScript
+
+Webブラウザ上で実行するスクリプト言語としてはJavaScriptは重要であると考えます。
+
+昨今のWebシステム・Webサービスにおいて、JavaScriptが担う役割はとても大きくなっていると考えます。
+周辺技術としても毎年新しい技術が注目されますが、基本となる部分をしっかりと学習していきましょう。
+
+### Topics
+- Web Browse Engine
+- Event Driven
+- DOM
+- JSON
+- Node.js
+
+### Reference
+**BOOKS**
+
+パーフェクトJavaScript
+
+## Swift
+
+iOS上で動かすアプリケーションの開発において、Swiftは重要な静的型付け言語であると考えます。
+タイプセーフである言語の開発と、プログラムを実行形式にコンパイルするという開発フローにも慣れていきましょう。
+
+### Topics
+- iOS
+- XCode
+
+### Reference
+
+**BOOKS**
+
+Swift実践入門
+
+## Android
+
+Swift同様にモバイル端末上で動かすアプリケーションの開発としてAndroidも重要です。
+歴史が深い技術であり、Javaに関する知識が必要になります。
+限られたリソースにおいて、パフォーマンスを発揮する為のチューニングについても技術が必要になります。
+
+### Topics
+- Jave
+- Kotlin
+
+### Reference
+
+**BOOKS**
+
+Androidを支える技術
+
+## UI
+
+### Topics
+- User Interface
+
+### Reference
+
+**BOOKS**
+
+パフォーマンス向上のためのデザイン設計
+緑色の本
+
+## Hardware
+
+### Topics
+- Device
+- Device Driver
+
+### Reference
+
+**BOOKS**
+
+コンピュータはなぜ動くか
+
+## Network
+
+### Topics
+- IP Address
+- Routing
+
+### Reference
+
+**BOOKS**
+
+3min Networing
