@@ -10,13 +10,13 @@ Tribal Media House におけるビギナーエンジニア，特にWeb開発の�
 
 ## 目次
 
-1. [About TMH](About TMH)
-2. [About Solution Development Department](About Solution Development Department)
-3. [About Software Engineer](About Software Engineer)
-4. [Operation System](Operation System)
+1. [AboutTMH](About-TMH)
+2. [About Solution Development Department](About-Solution-Development-Department)
+3. [About Software Engineer](About-Software-Engineer)
+4. [Operation System](Operation-System)
 5. [Container](Container)
-6. [Web Server](Web Server)
-7. [Database System](Database System)
+6. [Web Server](Web-Server)
+7. [Database System](Database-System)
 8. [HTML](HTML)
 9. [Git](Git)
 10. [PHP](PHP)
